@@ -17,6 +17,7 @@ class Car
 
 $bmw = new Car();
 $mastang = new Car();
+$ashish = new Car();
 $bmw->set_name('M3 Sport');
 $mastang->set_name('Mastang');
 $ashish->set_name('ashish bro niche chalo');
