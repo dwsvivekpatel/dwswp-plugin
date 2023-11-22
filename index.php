@@ -14,3 +14,8 @@ class Car
         return $this->name;
     }
 }
+
+$bmw = new Car();
+$bmw->set_name('M3 Sport');
+
+echo $bmw->get_name();
