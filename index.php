@@ -8,4 +8,9 @@ class Car
     {
         $this->name = $name;
     }
+
+      function get_name()
+    {
+        return $this->name;
+    }
 }
