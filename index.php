@@ -16,6 +16,10 @@ class Car
 }
 
 $bmw = new Car();
+$mastang = new Car();
 $bmw->set_name('M3 Sport');
+$mastang->set_name('Mastang');
 
 echo $bmw->get_name();
+echo "<br>";
+echo $mastang->get_name();
